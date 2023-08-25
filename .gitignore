@@ -1,0 +1,9 @@
+dist
+node_modules
+*.log
+coverage
+public/js
+.env
+test-reports/junit.xml
+pnpm-lock.yaml
+test-reports
