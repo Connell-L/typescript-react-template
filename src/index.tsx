@@ -1,8 +1,9 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
-import { HelloWorld } from './components/HelloWorld';
+import { Welcome } from './layout/Welcome';
+
 const App = () => {
-    return <HelloWorld />;
+    return <Welcome />;
 };
 
 const rootElement = document.getElementById('root');

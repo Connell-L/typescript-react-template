@@ -2,13 +2,13 @@ import '@testing-library/jest-dom';
 
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import { HelloWorld } from './HelloWorld';
+import { Welcome } from '../../src/layout/Welcome';
 
-const renderHelloWorld = () => render(<HelloWorld />);
+const renderWelcome = () => render(<Welcome />);
 
 describe('Hello World', () => {
     it('renders the welcome message', () => {
-        renderHelloWorld();
+        renderWelcome();
         expect(screen.getByText('Hello World!')).toBeInTheDocument();
     });
 });

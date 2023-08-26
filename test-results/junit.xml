@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="Template Tests" tests="1" failures="0" errors="0" time="2.235">
-  <testsuite name="Hello World" errors="0" failures="0" skipped="0" timestamp="2023-08-26T12:21:21" time="1.831" tests="1">
-    <testcase classname="Hello World renders the welcome message" name="Hello World renders the welcome message" time="0.02">
+<testsuites name="Template Tests" tests="2" failures="0" errors="0" time="4.124">
+  <testsuite name="Hello World" errors="0" failures="0" skipped="0" timestamp="2023-08-26T22:06:09" time="3.444" tests="1">
+    <testcase classname="Hello World renders the welcome message" name="Hello World renders the welcome message" time="0.031">
+    </testcase>
+  </testsuite>
+  <testsuite name="Hello World" errors="0" failures="0" skipped="0" timestamp="2023-08-26T22:06:09" time="3.501" tests="1">
+    <testcase classname="Hello World renders the welcome message" name="Hello World renders the welcome message" time="0.037">
     </testcase>
   </testsuite>
 </testsuites>
