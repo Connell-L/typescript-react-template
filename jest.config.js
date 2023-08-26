@@ -2,8 +2,7 @@ module.exports = {
   preset: 'ts-jest',
 
   // The root directory that Jest should scan for tests and modules within
-moduleDirectories: ['node_modules', 'src'],
-
+  moduleDirectories: ['node_modules', 'src'],
 
   // An array of file extensions your modules use
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'],
@@ -35,14 +34,11 @@ moduleDirectories: ['node_modules', 'src'],
   // The test environment that will be used for testing
   testEnvironment: 'jest-environment-jsdom',
 
-  // A list of paths to modules that run some code to configure or set up the testing environment before each test
-  setupFilesAfterEnv: ['@testing-library/jest-dom/extend-expect'],
-
   // The glob patterns Jest uses to detect test files
   testMatch: ['**/__tests__/**/*.ts?(x)', '**/?(*.)+(spec|test).ts?(x)'],
 
   // ignore specific folders and files from test
-  testPathIgnorePatterns: ['/node_modules/','/dist/'],
+  testPathIgnorePatterns: ['/node_modules/', '/dist/'],
 
   // A map from regular expressions to paths to transformers
   collectCoverageFrom: ['<rootDir>/src/**/*.{ts,tsx}'],
